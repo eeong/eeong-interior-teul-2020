@@ -133,6 +133,7 @@ body {
 	color: #fff;
 	background-color: #000;
 	overflow: hidden;
+	margin-bottom: 32px;		
 }
 
 .header-wrapper .banner-wrap {
@@ -351,6 +352,21 @@ body {
 	margin-right: 12px;
 }
 
+/* //.header */
+
+/* .section */
+.link-wrapper{ margin:0 32px; display:flex; flex-wrap: wrap; justify-content: space-around; }
+.link-wrapper .link{ height:440px; }
+.link-wrapper .link:nth-child(1){background: url(../img/home-1a.jpg) no-repeat left; flex:48% 0 0;}
+.link-wrapper .link:nth-child(2){background: url(../img/home-2.jpg) no-repeat left; flex:24% 0 0;}
+.link-wrapper .link:nth-child(3){background: url(../img/home-3.jpg) no-repeat left; flex:24% 0 0;}
+.link-wrapper .link:nth-child(4){background: url(../img/home-4.jpg) no-repeat left; flex:24% 0 0;}
+.link-wrapper .link:nth-child(5){background: #101619 no-repeat left; flex:24% 0 0;}
+.link-wrapper .link:nth-child(6){background: url(../img/home-5a.jpg) no-repeat left; flex:48% 0 0;}
+
+
+/* //.section */
+
 /* responsive */
 @media screen and (max-width: 1399px) {
 	.header-wrapper .top-wrap .top-lt .navi-wrap {
@@ -383,3 +399,4 @@ body {
 @media screen and (max-width: 575px) {
 	
 }
+
