@@ -26,7 +26,9 @@
 - animate()
 
 # 크기/위치(Dimension)
-
+- width(), height(), innerWidth(), innerHeight(), outerWidth(), outerHeight(), outerWidth(true), outerHeight(true)
+- ![크기사진](https://eeong-cdn.web.app/md/img_jquerydim.gif)
+- position, offset
 
 ## 2. Javascript 정리
 # 변수
