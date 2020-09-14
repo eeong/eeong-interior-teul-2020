@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>slide</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<style>
+		.wrapper {max-width: 1200px; margin:auto;}
+		.stage {width: 100%; }
+		.slide-wrap {position: relative;}
+		.slide{position: absolute; top: 0; left: 50%; width: 100%; }
+		.slide:nth-child(1){position: static;}
+	</style>
+	<script src="../js/jquery-3.5.1.min.js"></script>	
+</head>
+<body>
+	<div class="wrapper">
+		<div class="stage">
+			<div class="slide-wrap">
+				<div class="slide">
+					<img src="../img/slide-0.jpg" class="w-100">
+				</div>
+					<div class="slide"><img src="../img/slide-1.jpg" class="w-100"></div>
+					<div class="slide"><img src="../img/slide-2.jpg" class="w-100"></div>
+					<div class="slide">	<img src="../img/slide-3.jpg" class="w-100"></div>
+				
+			</div>
+			<div class="text-center">
+				<span class="btn-prev">prev</span>
+				<span style="padding: 0 12px;"></span>
+				<span class="btn-next">next</span>
+			</div>
+		</div>
+	</div>	
+	<script>
+		var $slides = $(".slide");
+		$(".slide").remove();
+
+		var idx = 0;
+
+		function init(){
+			$(".slide-wrap").append($slides.eq(idx));
+			$($slides.eq(idx+1)).appendTo(".slide-wrap").css("left","100%");
+		}
+		init();
+	</script>
+
+</body>
+</html>
