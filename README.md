@@ -3,21 +3,21 @@
 <br>
 
 ## 사용 스택
-- **퍼블리싱** 
-<br> 
+- **퍼블리싱**  
 HTML5 , CSS3 , jQuery, Bootstrap, Wow.js
-
-- **디자인** 
 <br> 
+
+- **디자인**  
 Adobe PhotoShop
-
-- **관리** 
 <br> 
+
+- **관리**  
 git
-
-- **배포** 
 <br> 
+
+- **배포**  
 firebase
+<br> 
 
 # 
 
