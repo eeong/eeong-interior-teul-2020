@@ -9,7 +9,7 @@ firebase-debug.*.log*
 
 # Firebase cache
 .firebase/
-
+.firebaserc
 # Firebase config
 
 # Uncomment this if you'd like others to create their own Firebase project.
@@ -49,6 +49,9 @@ node_modules/
 
 # Optional npm cache directory
 .npm
+
+# Old -v files
+.old
 
 # Optional eslint cache
 .eslintcache
