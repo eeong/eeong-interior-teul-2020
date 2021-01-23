@@ -1,5 +1,5 @@
 # 인테리어 틀: 메인페이지
-## [배포 링크](https://eeong-interior.web.app)
+## [배포 링크](https://eeong-interior.web.app){: target="_blank"}
 <br>
 
 ## 사용 스택
